@@ -3,42 +3,47 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; object-src 'none'; form-action 'self'; upgrade-insecure-requests;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>メタマスクウォレット ダウンロード＆ログイン</title>
+    <title>メタマスク（MetaMask）拡張機能をダウンロード デスクトップ・モバイル対応</title>
+
     <meta name="robots" content="index, follow">
-    <meta name="description" content="メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。">
+    <meta name="description" content="メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。">
     <meta name="keywords" content="MetaFactor,MetaMask,メタマスク,ログイン,ダウンロード,ウォレット">
     <meta name="theme-color" content="#C4550A">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="メタマスクウォレット ダウンロード＆ログイン">
-    <meta property="og:description" content="メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。">
+    <meta property="og:title" content="メタマスク（MetaMask）拡張機能をダウンロード デスクトップ・モバイル対応">
+    <meta property="og:description" content="メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。">
     <meta property="og:url" content="https://metafactor.github.io/">
     <meta property="og:site_name" content="MetaFactor">
     <meta property="og:image" content="https://metafactor.github.io/thumbnail-1200x630.png">
-    <meta property="og:image:alt" content="メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。">
+    <meta property="og:image:alt" content="メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="ja_JP" />
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="メタマスクウォレット ダウンロード＆ログイン">
-    <meta name="twitter:description" content="メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。">
+    <meta name="twitter:title" content="メタマスク（MetaMask）拡張機能をダウンロード デスクトップ・モバイル対応">
+    <meta name="twitter:description" content="メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。">
     <meta name="twitter:url" content="https://metafactor.github.io/">
     <meta name="twitter:site" content="@realmetafactor">
     <meta name="twitter:creator" content="@realmetafactor">
     <meta name="twitter:image" content="https://metafactor.github.io/thumbnail-1200x630.png">
-    <meta name="twitter:image:alt" content="メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。">
+    <meta name="twitter:image:alt" content="メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。">
 
     <link rel="robots" href="/robots.txt">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
     <link rel="canonical" href="https://metafactor.github.io/">
 
-    <link rel="icon" href="https://metafactor.github.io/favicon.ico?v=1" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://metafactor.github.io/icon-180x180.png?v=1">
+    <link rel="icon" type="image/x-icon" href="https://metafactor.github.io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://metafactor.github.io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://metafactor.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://metafactor.github.io/favicon-48x48.png">
+    <link rel="icon" type="image/svg+xml" href="https://metafactor.github.io/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://metafactor.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://metafactor.github.io/android-chrome-192x192.png">
 
     <script type="application/ld+json">
       {
@@ -62,12 +67,12 @@
         "url": "https://metafactor.github.io/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://metafactor.github.io/icon-180x180.png",
-          "width": 180,
-          "height": 180
+          "url": "https://metafactor.github.io/android-chrome-192x192.png",
+          "width": 192,
+          "height": 192
         },
         "image": "https://metafactor.github.io/thumbnail-1200x630.png",
-        "description": "メタマスクのウォレットをPCとスマホに安全にダウンロード・インストールする手順を解説。公式サイトの確認から初回ログインまで丁寧に紹介します。",
+        "description": "メタマスクの公式サイトからのダウンロード方法、PCブラウザ拡張機能のインストール手順、iOS/Androidスマホウォレットの設定とログイン方法を丁寧に解説。",
         "sameAs": ["https://x.com/realmetafactor", "https://www.youtube.com/@realmetafactor", "https://github.com/metafactor", "https://medium.com/@realmetafactor", "https://www.pinterest.com/realmetafactor", "https://www.tumblr.com/realmetafactor"],
         "areaServed": ["Worldwide"],
         "keywords": ["MetaFactor", "MetaMask", "メタマスク", "ログイン", "ダウンロード", "ウォレット"],
@@ -1148,7 +1153,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
           <p class="disclaimer-text">
-            <strong>Disclaimer:</strong> This is an independent community discussion space and is not affiliated with MetaMask or any wallet provider. Content is user-generated. Always verify official sources and never share or enter your seed phrase or private keys.
+            <strong>IMPORTANT SECURITY NOTICE:</strong> Not affiliated with MetaMask or ConsenSys. This is an independent community forum. Never share your seed phrase with anyone. For official downloads, type <strong>metamask.io</strong> directly in your browser.
           </p>
         </div>
         <article class="forum-post" itemscope itemtype="https://schema.org/Article">
@@ -1159,305 +1164,236 @@
             <span itemprop="name">MetaFactor</span>
             <link itemprop="url" href="https://metafactor.github.io/">
             <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-              <link itemprop="url" href="https://metafactor.github.io/icon-180x180.png">
-              <meta itemprop="width" content="180">
-              <meta itemprop="height" content="180">
+              <link itemprop="url" href="https://metafactor.github.io/android-chrome-192x192.png">
+              <meta itemprop="width" content="192">
+              <meta itemprop="height" content="192">
             </div>
           </div>
           <header class="post-header">
-            <h1 class="post-title" itemprop="headline">MetaMask（メタマスク）をPCとスマホにインストールする方法</h1>
+            <h1 class="post-title" itemprop="headline">メタマスクのダウンロード＆インストール完全ガイド</h1>
             <div class="post-meta">
               <div class="author-info" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <div class="avatar" aria-hidden="true">AZ</div>
+                <div class="avatar" aria-hidden="true">CD</div>
                 <div class="author-details">
                   <div>
-                    <span class="author-name" id="AmZora" itemprop="name">AmZora</span>
-                    <link itemprop="url" href="https://metafactor.github.io/#AmZora">
+                    <span class="author-name" id="CavDev" itemprop="name">CavDev</span>
+                    <link itemprop="url" href="https://metafactor.github.io/#CavDev">
                     <span class="member-badge">10 Year Member</span>
                   </div>
-                  <time class="post-date" datetime="2016-10-17T09:17:00+00:00" itemprop="datePublished">October 17, 2016</time>
-                  <meta itemprop="dateModified" content="2025-11-29T18:23:14+00:00">
                 </div>
               </div>
+              <time class="post-date" datetime="2025-11-21T10:14:00+07:00" itemprop="datePublished">November 21, 2025 at 10:14 AM</time>
+              <meta itemprop="dateModified" content="2025-11-30T05:27:30+00:00">
             </div>
           </header>
           <figure class="post-thumbnail" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-            <img src="https://metafactor.github.io/thumbnail-1200x630.png" alt="MetaMask（メタマスク）をPCとスマホにインストールする方法" width="1200" height="630" loading="eager" fetchpriority="high" itemprop="url contentUrl">
+            <img src="https://metafactor.github.io/thumbnail-1200x630.png" alt="メタマスクのダウンロード＆インストール完全ガイド" width="1200" height="630" loading="eager" fetchpriority="high" itemprop="url contentUrl">
             <meta itemprop="width" content="1200">
             <meta itemprop="height" content="630">
-            <meta itemprop="caption" content="MetaMask（メタマスク）をPCとスマホにインストールする方法">
-            <figcaption class="sr-only">MetaMask（メタマスク）をPCとスマホにインストールする方法</figcaption>
+            <meta itemprop="caption" content="メタマスクのダウンロード＆インストール完全ガイド">
+            <figcaption class="sr-only">メタマスクのダウンロード＆インストール完全ガイド</figcaption>
           </figure>
           <div class="post-content" itemprop="articleBody">
-            <p>
-            メタマスク（MetaMask）は、暗号資産やNFTを管理し、Web3アプリに接続するための代表的なウォレットです。
-            このガイドでは、<strong>PC（ブラウザ拡張機能）とスマホアプリのダウンロード・インストール方法</strong>から、
-            <strong>初回ウォレット作成やログイン方法、安全な使い方</strong>まで、初心者でも迷わないように解説します。
-            </p>
-            <h2>このガイドでわかること</h2>
+            <p>暗号資産やNFT、DeFiサービスを利用するとき、多くの人が最初に使うウォレットが <strong>メタマスク（MetaMask）</strong>です。この記事では、 <strong>PCブラウザ拡張機能</strong>と <strong>スマホアプリ</strong>の両方でメタマスクを 安全に <strong>ダウンロード</strong>し、インストールして <strong>ウォレット</strong>を作成・ログインするまでを、初心者向けにわかりやすく解説します。</p>
             <ul>
-              <li><a href="#what-is-metamask">メタマスクとは？ウォレットとしてできること</a></li>
-              <li><a href="#security-before-download">ダウンロード前に必ず確認したい安全対策</a></li>
-              <li><a href="#pc-install">PCブラウザでのメタマスク拡張機能のダウンロード＆インストール</a></li>
-              <li><a href="#mobile-install">スマホ（iOS / Android）でのメタマスクアプリのダウンロード＆インストール</a></li>
-              <li><a href="#first-setup-login">初回ウォレット作成とログインの手順</a></li>
-              <li><a href="#sync-wallet">既存ウォレットを別デバイスに同期する方法</a></li>
-              <li><a href="#troubleshooting">ログインできないときのチェックポイント</a></li>
-              <li><a href="#faq">よくある質問（FAQ）</a></li>
+              <li>
+                <a href="#what-is-metamask">メタマスクとは？ウォレットとしての基本</a>
+             </li>
+              <li>
+                <a href="#prepare">ダウンロード前に確認したい安全チェック</a>
+             </li>
+              <li>
+                <a href="#desktop">PCブラウザ拡張機能版メタマスクのインストール手順</a>
+             </li>
+              <li>
+                <a href="#desktop-wallet-setup">PCでウォレットを作成・ログインする方法</a>
+             </li>
+              <li>
+                <a href="#mobile">スマホアプリ版メタマスクのダウンロード＆初期設定</a>
+             </li>
+              <li>
+                <a href="#login">メタマスクへのログインとロック解除の基本</a>
+             </li>
+              <li>
+                <a href="#first-steps">インストール後に最初にやるべき設定</a>
+             </li>
+              <li>
+                <a href="#faq">よくある質問（FAQ）</a>
+             </li>
             </ul>
             <h2 id="what-is-metamask">メタマスクとは？ウォレットとしての基本</h2>
-            <p>
-            メタマスクは、EthereumやEVM互換チェーンに対応したソフトウェアウォレットで、
-            <strong>ブラウザ拡張機能</strong>および<strong>スマホアプリ</strong>として提供されています。
-            メタマスクのウォレットを使うことで、以下のようなことが可能です。
-            </p>
+            <p>メタマスクは、 <strong>ブラウザ拡張機能</strong>と <strong>スマホアプリ</strong>で利用できる 暗号資産ウォレットです。イーサリアムやソラナなどの秘密鍵を自分で管理し、 ETHやトークン、NFTを保管・送受信したり、Web3の分散型アプリ（dApps）に接続できます。</p>
+            <p>特徴的なのは、 <strong>セルフカストディ（自己管理）ウォレット</strong>である点です。 取引所のようにメールアドレスやパスワードをサーバーに保存するのではなく、 秘密鍵やシードフレーズ（Secret Recovery Phrase）はあなたの端末側で管理されます。 つまり、メタマスク側でも復元できず、 <strong>自分で守る代わりに、自分が完全にコントロールできる</strong>仕組みです。</p>
+            <p>そのため、メタマスクの使い方を覚えることは、 「暗号資産を自分の名義のまま持つ」ための第一歩と言えます。 このあと解説する <strong>ダウンロード元の確認</strong>や <strong>シークレットリカバリーフレーズの保管</strong>をしっかり行えば、 安全にウォレットを運用しやすくなります。</p>
+            <h2 id="prepare">ダウンロード前に確認したい安全チェック</h2>
+            <h3>1. 対応ブラウザとOSを確認する</h3>
+            <p>メタマスク拡張機能は、主に次のブラウザに対応しています。</p>
             <ul>
-              <li>ETHやERC-20トークンなどの暗号資産を保管・送受信する</li>
-              <li>NFTの保有・確認・売買に利用する</li>
-              <li>DeFi、ゲーム、NFTマーケットなどのdAppにウォレットでログインして利用する</li>
-              <li>トークンのスワップ（交換）や、ステーキングなどのWeb3サービスを利用する</li>
-            </ul>
-            <p>
-            メタマスクは<strong>自己管理型（セルフカストディ）ウォレット</strong>です。
-            取引所のように運営会社があなたの資産を預かるのではなく、
-            <strong>シークレットリカバリーフレーズ（秘密の復元フレーズ）</strong>を自分で管理し、資産の管理権限も自分が持ちます。
-            そのため、セキュリティ対策が非常に重要になります。
-            </p>
-            <h2 id="security-before-download">インストール前に必ず確認したい安全対策</h2>
-            <p>
-            メタマスクのダウンロードやログイン前に、次のポイントを必ずおさえておきましょう。
-            </p>
-            <h3>1. 公式サイト・公式ストアからのみダウンロードする</h3>
-            <ul>
-              <li>ブラウザ拡張機能：必ずMetaMask公式サイト経由で各ブラウザの拡張機能ストアへアクセスする</li>
-              <li>スマホアプリ：App Store / Google Playの<strong>公式MetaMaskアプリ</strong>以外は使用しない</li>
-            </ul>
-            <p>
-            フィッシングサイト（偽サイト）は、本物そっくりのデザインでユーザーをだまし、
-            偽のメタマスク拡張機能やアプリをインストールさせようとします。
-            URLのスペル、SSL証明書（ブラウザの鍵マーク）などを確認し、
-            <strong>少しでも怪しいと感じたらインストールしない</strong>ようにしましょう。
-            </p>
-            <h3>2. シークレットリカバリーフレーズは絶対に他人に教えない</h3>
-            <p>
-            メタマスクでは、ウォレット作成時に12語または24語の<strong>シークレットリカバリーフレーズ</strong>が表示されます。
-            これは「ウォレットそのもの」と言ってよいほど重要で、これを知っている人は誰でもあなたの資産を奪えます。
-            </p>
-            <ul>
-              <li>スクリーンショットを撮らない</li>
-              <li>オンラインメモやクラウドストレージに保存しない</li>
-              <li>紙にメモして、耐火金庫などオフラインで大切に保管する</li>
-              <li>サポートを名乗る人やサイト・フォームに入力しない（公式サポートも絶対に要求しません）</li>
-            </ul>
-            <h3>3. 「パスワード」と「シークレットリカバリーフレーズ」の違いを理解する</h3>
-            <ul>
-              <li><strong>パスワード：</strong>その端末上でメタマスクにログイン（アンロック）するためのもの。忘れても、フレーズがあれば再設定可能。</li>
-              <li><strong>シークレットリカバリーフレーズ：</strong>ウォレットを他の端末へ復元するための最重要情報。紛失すると資産を二度と取り戻せません。</li>
-            </ul>
-            <h2 id="pc-install">PCブラウザでメタマスク拡張機能をダウンロード＆インストールする</h2>
-            <h3>1. 対応ブラウザを確認する</h3>
-            <p>
-            メタマスクのブラウザ拡張機能は、主に次のブラウザで利用できます。
-            </p>
-            <ul>
-              <li>Google Chrome</li>
+              <li>Google Chrome / Microsoft Edge / Brave などのChromium系ブラウザ</li>
               <li>Mozilla Firefox</li>
-              <li>Microsoft Edge</li>
-              <li>Brave（Chromiumベース）</li>
-              <li>Opera など、一部のChromium系ブラウザ</li>
+              <li>Opera など</li>
             </ul>
-            <p>
-            まだインストールしていない場合は、普段の利用に合ったブラウザを準備しておきましょう。
-            </p>
-            <h3>2. 公式サイトからダウンロードページへ移動する</h3>
-            <ol>
-              <li>ブラウザを開き、アドレスバーに「<em>metamask</em>」と入力して検索します。</li>
-              <li>検索結果から<strong>公式サイト（MetaMask公式）</strong>を開き、「Download」または「Get MetaMask」ボタンをクリックします。</li>
-              <li>「Browser Extension」やブラウザ名のアイコンが表示されるダウンロードページに移動します。</li>
-            </ol>
-            <h3>3. ブラウザ拡張機能ストアからインストールする</h3>
-            <p>
-            ダウンロードページから、利用中のブラウザのアイコンをクリックすると、ブラウザ公式の拡張機能ストアに移動します。
-            例：ChromeならChrome Web Store、FirefoxならFirefox Add-onsなど。
-            </p>
-            <ol>
-              <li>拡張機能ストアで「MetaMask」の詳細ページを開く</li>
-              <li>開発元が公式（Consensys / MetaMask）であることを確認する</li>
-              <li>「Chromeに追加」「拡張機能を追加」などのボタンをクリック</li>
-              <li>ブラウザの確認ダイアログで許可を選択してインストールを完了する</li>
-            </ol>
-            <h3>4. メタマスク拡張機能をピン留めしてすぐ開けるようにする</h3>
-            <p>
-            Chromeなどのブラウザでは、インストール直後はツールバーにメタマスクアイコン（キツネのロゴ）が表示されないことがあります。
-            </p>
-            <ol>
-              <li>ブラウザ右上の<strong>パズルアイコン（拡張機能）</strong>をクリック</li>
-              <li>一覧の中から「MetaMask」を探す</li>
-              <li>ピンアイコンをクリックしてツールバーに固定する</li>
-            </ol>
-            <p>
-            これで、ツールバーのメタマスクアイコンをクリックするだけでウォレット画面を開けるようになります。
-            </p>
-            <h3>5. PCでの初期設定の流れ（新規ウォレット作成）</h3>
-            <p>拡張機能を開くと、メタマスクの初期設定画面が表示されます。</p>
-            <ol>
-              <li>「Get Started」をクリック</li>
-              <li><strong>新しくウォレットを作成する場合：</strong>「Create a new wallet」を選択</li>
-              <li>利用規約やデータ収集に関する説明を読み、同意するかどうか選択</li>
-              <li>ログイン用パスワードを設定（他サービスと使い回さない強力なパスワードにする）</li>
-              <li>シークレットリカバリーフレーズが表示されるので、必ずオフラインで安全に保管</li>
-              <li>表示されたフレーズを順番どおりに選ぶ確認画面に従い、フレーズを正しく入力</li>
-              <li>セットアップ完了画面が表示されたら「All Done」をクリック</li>
-            </ol>
-            <p>
-            ここまで完了すれば、PCブラウザ上でメタマスクのウォレットが利用できるようになります。
-            </p>
-            <h2 id="mobile-install">スマホ（iOS / Android）でメタマスクをダウンロード＆インストールする</h2>
-            <h3>1. App Store / Google Playから公式アプリを探す</h3>
-            <p>
-            スマホでメタマスクのウォレットを使うには、公式アプリをインストールします。
-            </p>
+            <p>ブラウザは <strong>最新版</strong>にアップデートしてからインストールしましょう。 古いバージョンはセキュリティ上のリスクが高くなります。</p>
+            <h3>2. 公式サイト・公式ストアからのみダウンロードする</h3>
+            <p>メタマスクは有名なウォレットのため、 名前やロゴを真似した <strong>偽サイト・偽アプリ</strong>も存在します。 必ず次のような公式ルートからのみ <strong>ダウンロード</strong>してください。</p>
             <ul>
-              <li><strong>iOS：</strong>App Storeを開き、「MetaMask」と検索</li>
-              <li><strong>Android：</strong>Google Playストアを開き、「MetaMask」と検索</li>
+              <li>ブラウザ：公式サイト <code>https://metamask.io/</code> の「Download」ボタンから各Webストアへ移動</li>
+              <li>iOS：App Store で「MetaMask」と検索し、提供元（開発者名）を確認してからインストール</li>
+              <li>Android：Google Playで「MetaMask」と検索し、ダウンロード数・評価・提供元を確認</li>
             </ul>
-            <p>
-            検索結果から、<strong>評価数・ダウンロード数が多く、開発元が公式（MetaMask / Consensys）であること</strong>を確認してください。
-            紛らわしい名前の偽アプリが存在することがあるため、アイコンやレビューもチェックしましょう。
-            </p>
-            <h3>2. メタマスクアプリをインストールする</h3>
-            <ol>
-              <li>公式MetaMaskアプリの詳細ページを開く</li>
-              <li>「入手」または「インストール」ボタンをタップ</li>
-              <li>ダウンロード完了後、「開く」をタップしてアプリを起動</li>
-            </ol>
-            <h3>3. スマホでの初期設定（新規ウォレット作成）</h3>
-            <p>初回起動時は、PC版とほぼ同様の流れでウォレットを作成します。</p>
-            <ol>
-              <li>言語や地域を確認</li>
-              <li>「新しいウォレットを作成」または「ウォレットをインポート」を選択</li>
-              <li>ウォレットの利用条件・プライバシーポリシーに目を通し、同意するか選択</li>
-              <li>アプリロック用のパスワードまたはPINコード、必要に応じてFace ID / 指紋認証を設定</li>
-              <li>シークレットリカバリーフレーズが表示されるので、PC版と同様に安全に保管</li>
-              <li>確認画面でフレーズを正しく選択し、ウォレット作成を完了</li>
-            </ol>
-            <h2 id="first-setup-login">メタマスクのログイン（アンロック）方法と基本操作</h2>
-            <h3>1. PCブラウザ拡張でのログイン（アンロック）</h3>
-            <ol>
-              <li>ブラウザ右上のメタマスクアイコンをクリック</li>
-              <li>ロック状態の場合は、パスワード入力画面が表示される</li>
-              <li>設定したパスワードを入力して「Unlock」をクリック</li>
-            </ol>
-            <p>
-            アンロックされると、ウォレットの残高やネットワーク、アカウントアドレスなどが表示され、
-            dAppサイトで「ウォレット接続」ボタンを押すと、メタマスクのポップアップが立ち上がるようになります。
-            </p>
-            <h3>2. スマホアプリでのログイン</h3>
-            <ol>
-              <li>MetaMaskアプリを起動</li>
-              <li>パスコード入力、またはFace ID / 指紋認証でロック解除</li>
-              <li>ホーム画面にウォレット残高やネットワークが表示される</li>
-            </ol>
-            <p>
-            スマホアプリ内にはブラウザ機能があり、アプリ内ブラウザからdAppにアクセスし、
-            そのままメタマスクウォレットでログインして操作することもできます。
-            </p>
-            <h3>3. ロックとログアウトの違い</h3>
+            <p>URLを一文字ずつ確認する、検索結果からではなくブックマークや公式リンクから開くなど、 フィッシング対策を徹底しましょう。</p>
+            <h3>3. シークレットリカバリーフレーズを守る覚悟を持つ</h3>
+            <p>メタマスクのウォレットは、12単語などで構成される <strong>シークレットリカバリーフレーズ（復元フレーズ）</strong>で復元できます。 これは <strong>絶対に他人と共有してはいけない</strong>情報で、 これを知っている人はあなたのウォレットを完全に操作できてしまいます。</p>
             <ul>
-              <li><strong>ロック：</strong>一定時間操作しないと自動でロックされる設定があり、ロック解除にはパスワード／生体認証が必要です。</li>
-              <li><strong>完全ログアウト：</strong>ログアウトしてもウォレット自体は端末に残ります。シークレットリカバリーフレーズなしに第三者が復元することはできませんが、共有PCではログアウトとロックの両方を意識しましょう。</li>
+              <li>紙に手書きしてオフラインの場所に保管する</li>
+              <li>スクリーンショットを撮ってクラウドに保存しない</li>
+              <li>パスワード管理アプリに入れる場合も、二段階認証などを有効にする</li>
             </ul>
-            <h2 id="sync-wallet">既存ウォレットを別デバイスに同期する方法</h2>
-            <p>
-            すでにPCでメタマスクウォレットを使っていて、あとからスマホでも同じウォレットにログインしたい場合、
-            <strong>シークレットリカバリーフレーズを使ってインポート</strong>します（逆のパターンも同様）。
-            </p>
-            <h3>PCに既存ウォレットをインポートする例</h3>
+            <p>この準備ができてから、実際のインストールに進みましょう。</p>
+            <h2 id="desktop">PCブラウザ拡張機能版メタマスクのインストール手順</h2>
+            <h3 id="desktop-step1">ステップ1：公式ダウンロードページを開く</h3>
             <ol>
-              <li>ブラウザにMetaMask拡張機能をインストールし、「Get Started」をクリック</li>
-              <li>「Import an existing wallet」または類似の項目を選択</li>
-              <li>シークレットリカバリーフレーズ（12語または24語）を正しい順番で入力</li>
-              <li>新しいログイン用パスワードを設定</li>
-              <li>インポート完了後、元のウォレットと同じアドレス・残高が表示されているか確認</li>
+              <li>ブラウザを開き、アドレスバーに <code>https://metamask.io/</code> を入力してアクセスします。</li>
+              <li>トップページの中にある <strong>「Download」または「Get MetaMask」ボタン</strong>をクリックします。</li>
+              <li>「Browser Extension（ブラウザ拡張機能）」が選択されていることを確認します。</li>
             </ol>
-            <h3>スマホに既存ウォレットをインポートする例</h3>
+            <h3 id="desktop-step2">ステップ2：ブラウザの拡張機能ストアからダウンロード</h3>
             <ol>
-              <li>MetaMaskアプリをインストールして起動</li>
-              <li>「ウォレットをインポート」を選択</li>
-              <li>シークレットリカバリーフレーズを入力</li>
-              <li>スマホ用のパスコードや生体認証を設定</li>
-              <li>インポート後、残高やアドレスがPCと一致していることを確認</li>
+              <li>使用中のブラウザ（Chrome / Firefox / Edge / Brave / Opera など）を選択します。</li>
+              <li>それぞれの拡張機能ストア（例：Chrome Web Store）のメタマスクページが開きます。</li>
+              <li> 表示例： <ul>
+                  <li>ボタン： <strong>「Chromeに追加」</strong>や <strong>「Add to Chrome」</strong>など</li>
+                  <li>提供元： <strong>MetaMask / ConsenSys</strong> など公式名であるかを確認</li>
+                </ul>
+             </li>
+              <li>問題なければ <strong>「追加」「インストール」ボタン</strong>をクリックし、指示に従ってインストールします。</li>
             </ol>
-            <p>
-            どのデバイスでも<strong>シークレットリカバリーフレーズは絶対に外部に漏らさない</strong>ことが重要です。
-            誰かがこのフレーズを知ってしまうと、別の端末であなたのウォレットを自由に復元できてしまいます。
-            </p>
-            <h2 id="troubleshooting">メタマスクにログインできないときのチェックポイント</h2>
-            <p>
-            メタマスクにログイン（アンロック）できない、拡張機能が表示されないといった場合は、次の点を確認しましょう。
-            </p>
+            <h3 id="desktop-step3">ステップ3：拡張機能をピン留めしておく（任意）</h3>
+            <p>Chromeなどでは、右上の <strong>パズルアイコン（拡張機能アイコン）</strong>をクリックし、 一覧から「MetaMask」を探して <strong>ピンアイコン</strong>をクリックすると、 ブラウザ右上に常にキツネのアイコンが表示されます。 これにより、ウォレットへのアクセスやログインがスムーズになります。</p>
+            <h2 id="desktop-wallet-setup">PCでウォレットを作成・ログインする方法</h2>
+            <h3>ステップ4：初回起動とウォレットの新規作成</h3>
+            <ol>
+              <li>ブラウザ右上のメタマスクアイコン（キツネのロゴ）をクリックします。</li>
+              <li>初めて起動すると <strong>「Get Started」</strong>画面が表示されます。</li>
+              <li> 以下の選択肢が出るので、自分に合ったものを選びます。 <ul>
+                  <li>
+                    <strong>「Create a new wallet」：新しくウォレットを作成する</strong>
+                 </li>
+                  <li>
+                    <strong>「Import using Secret Recovery Phrase」：既存のウォレットを復元する</strong>
+                 </li>
+                </ul>
+             </li>
+            </ol>
+            <h3>ステップ5：ローカルパスワードの設定</h3>
+            <p>新規作成を選ぶと、まず <strong>ウォレットを開くためのパスワード</strong>を設定します。 これはブラウザ内でメタマスクを <strong>ロック解除（ログイン）</strong>するときに使うもので、 シークレットリカバリーフレーズとは別物です。</p>
             <ul>
-              <li>パスワードの大文字・小文字、キーボードレイアウト（英語配列など）は正しいか</li>
-              <li>ブラウザの拡張機能一覧でMetaMaskが無効化されていないか</li>
-              <li>別のブラウザプロファイルにインストールしていないか</li>
-              <li>PCやスマホのOS・ブラウザが最新バージョンか</li>
-              <li>通信環境（VPNや企業ネットワークの制限など）に問題がないか</li>
+              <li>8文字以上の英数字＋記号を混ぜた強力なパスワードにする</li>
+              <li>他サービスと使い回さない</li>
+              <li>パスワード管理アプリや紙にメモするなどして忘れないようにする</li>
             </ul>
-            <h3>パスワードを忘れた場合</h3>
-            <p>
-            パスワードを忘れてメタマスクにログインできない場合でも、<strong>シークレットリカバリーフレーズがあれば復元可能</strong>です。
-            </p>
+            <h3>ステップ6：シークレットリカバリーフレーズの確認と保管</h3>
             <ol>
-              <li>現在の拡張機能／アプリを一度リセット（ウォレットを削除）する</li>
-              <li>再インストールまたは初期化後、「ウォレットをインポート」からリカバリーフレーズを入力</li>
-              <li>新しいパスワードを設定してウォレットを復元する</li>
+              <li>セキュリティに関する短い説明や動画を確認したあと、 <strong>12単語のフレーズ</strong>が表示されます。</li>
+              <li>この画面では、周囲に人がいないか、画面が撮影されていないかを確認してください。</li>
+              <li>紙にフレーズを書き写す、金属プレートに刻むなど、 <strong>オフラインで安全な方法</strong>で保管します。</li>
+              <li>次の画面で、順番通りに単語を選んで正しいことを確認すると、ウォレット作成は完了です。</li>
             </ol>
-            <p>
-            ただし、<strong>フレーズを紛失している場合はウォレットを復旧できません</strong>。これはメタマスクに限らず、自己管理型ウォレット共通の仕様であり、第三者が復元できないことがセキュリティ上のメリットでもあります。
-            </p>
+            <h3>ステップ7：ウォレット画面の基本の見方</h3>
+            <p>ウォレット作成後、メタマスクのメイン画面が表示されます。代表的な項目は次の通りです。</p>
+            <ul>
+              <li>上部：現在のネットワーク（例：Ethereum Mainnet）</li>
+              <li>中央：アカウント名（Account 1など）とウォレットアドレス</li>
+              <li>残高表示：ETH残高やトークン一覧</li>
+              <li>ボタン： <strong>「Buy」「Send」「Swap」</strong>などの操作ボタン</li>
+            </ul>
+            <p>この画面が表示されれば、PCブラウザでのメタマスクウォレットの準備は完了です。</p>
+            <h2 id="mobile">スマホアプリ版メタマスクのダウンロード＆初期設定</h2>
+            <h3>ステップ1：App Store / Google Play から公式アプリをダウンロード</h3>
+            <ol>
+              <li>iPhone / iPad の場合は <strong>App Store</strong>、Androidの場合は <strong>Google Play ストア</strong>を開きます。</li>
+              <li>検索バーに <strong>「MetaMask」または「メタマスク」</strong>と入力して検索します。</li>
+              <li> 次の点を確認してから <strong>ダウンロード</strong>します。 <ul>
+                  <li>アイコン：オレンジ色のキツネのロゴ</li>
+                  <li>提供元：MetaMask / ConsenSys など公式名が表示されていること</li>
+                  <li>評価・ダウンロード数が極端に低くないこと（偽アプリを避ける目安）</li>
+                </ul>
+             </li>
+              <li>問題なければ <strong>「入手」または「インストール」</strong>をタップします。</li>
+            </ol>
+            <h3>ステップ2：アプリの初回起動とウォレットの新規作成／インポート</h3>
+            <ol>
+              <li>インストール完了後、メタマスクアプリを開きます。</li>
+              <li>「Get Started」画面で、次のいずれかを選びます。 <ul>
+                  <li>
+                    <strong>「Create a new wallet」：スマホで新規ウォレットを作成</strong>
+                 </li>
+                  <li>
+                    <strong>「Import using Secret Recovery Phrase」：PCで作成済みのウォレットをスマホに同期</strong>
+                 </li>
+                </ul>
+             </li>
+              <li> PC版と同じく、ローカルパスワード（またはPIN）を設定し、 シークレットリカバリーフレーズを表示・保管します。</li>
+              <li>Face ID / Touch ID / 指紋認証などの生体認証を有効にしておくと、スマホでのログインがスムーズで安全です。</li>
+            </ol>
+            <h3>ステップ3：PC版と同じウォレットをスマホで使う場合</h3>
+            <p>すでにPCブラウザ拡張機能でメタマスクウォレットを作成している場合、 <strong>同じシークレットリカバリーフレーズ</strong>をアプリに入力することで、 同じウォレットをスマホでも利用できます。</p>
+            <ul>
+              <li>PC側：シークレットリカバリーフレーズを確認（初回設定時にメモしておくのが理想）</li>
+              <li>スマホ側：「Import using Secret Recovery Phrase」を選び、同じフレーズを入力</li>
+            </ul>
+            <p>こうすることで、 <strong>PCとスマホの両方から同じウォレットにアクセス</strong>でき、 残高やトランザクション履歴も同期されます。</p>
+            <h2 id="login">メタマスクへのログインとロック解除の基本</h2>
+            <h3>PCブラウザ拡張機能からのログイン（ロック解除）</h3>
+            <ol>
+              <li>ブラウザ右上のメタマスクアイコンをクリックします。</li>
+              <li>ロック状態の場合、 <strong>パスワード入力画面</strong>が表示されます。</li>
+              <li>初回設定で決めたパスワードを入力し、「Unlock」ボタンをクリックします。</li>
+            </ol>
+            <p>これが、メタマスクにおける「 <strong>ログイン</strong>」に相当します。 ただし、一般的なWebサービスのようにサーバー側アカウントへログインするのではなく、 <strong>自分の端末上でウォレットをロック解除するイメージ</strong>です。</p>
+            <h3>スマホアプリからのログイン</h3>
+            <ol>
+              <li>メタマスクアプリを起動します。</li>
+              <li>パスワード、PIN、またはFace ID / 指紋認証などを入力・認証します。</li>
+              <li>ウォレット画面が表示されれば、ログイン完了です。</li>
+            </ol>
+            <p>スマホでは、一定時間操作しないと自動でロックされる設定にしておくと、 紛失時のリスクを減らせます。</p>
+            <h3>安全にログインするためのポイント</h3>
+            <ul>
+              <li>公共のPCや他人の端末ではウォレットを開かない</li>
+              <li>ブラウザを閉じる前にメタマスクの「Lock（ロック）」をクリックする</li>
+              <li>スマホの画面ロックや生体認証を必ず設定する</li>
+              <li>フィッシングサイトでパスワードやリカバリーフレーズを入力しない</li>
+            </ul>
+            <h2 id="first-steps">インストール後に最初にやるべき設定</h2>
+            <h3>1. ネットワークの確認</h3>
+            <p>デフォルトでは <strong>Ethereum Mainnet</strong>が選択されています。 初心者のうちは、基本的にこのネットワークだけを使い、 知らないネットワーク追加を求めるサイトとは接続しないようにしましょう。</p>
+            <h3>2. 受取アドレスの確認</h3>
+            <p>ウォレット画面上部のアカウント名（例：Account 1）の近くにある アドレス（0xから始まる文字列）をクリックすると、アドレスがコピーできます。 このアドレスは <strong>受取専用</strong>として他人に教えても問題ありませんが、 シークレットリカバリーフレーズとは別物である点に注意してください。</p>
+            <h3>3. 少額からテスト送金する</h3>
+            <p>初めてメタマスクに暗号資産を送るときは、必ず <strong>少額でテスト送金</strong>するのがおすすめです。 アドレスの入力ミスやネットワークの選択ミスがないかを確認してから、 本格的に資産を移動させましょう。</p>
+            <h3>4. 通知・プライバシー設定を見直す</h3>
+            <p>メタマスクの設定画面では、接続中サイトの管理、トランザクションの署名確認、 プライバシーオプションなどを調整できます。 よく使うdApp以外への自動接続をオフにしておくと、誤操作や不正な接続のリスクを下げられます。</p>
             <h2 id="faq">よくある質問（FAQ）</h2>
-            <h3>Q1. メタマスクは無料で使えますか？</h3>
-            <p>
-            はい、メタマスクのウォレットアプリやブラウザ拡張機能自体は無料でダウンロード・利用できます。
-            ただし、送金やスワップなどのトランザクションを行う際には、ブロックチェーン上のガス代（手数料）が発生します。
-            </p>
-            <h3>Q2. 複数のブラウザやデバイスから同じウォレットにログインしても大丈夫？</h3>
-            <p>
-            はい、シークレットリカバリーフレーズを使って同じウォレットを複数のブラウザやデバイスにインポートできます。
-            ただし、<strong>共有PCやセキュリティの低い端末にはインポートしない</strong>ことをおすすめします。
-            </p>
-            <h3>Q3. 新しいPCに買い替えたとき、ウォレットをどう移行すればいいですか？</h3>
-            <p>
-            新しいPCにブラウザ拡張のメタマスクをインストールし、「ウォレットをインポート」からシークレットリカバリーフレーズを入力すれば、元のウォレットを再現できます。古いPCからはメタマスクを削除しておくと、セキュリティ的に安心です。
-            </p>
-            <h3>Q4. メタマスクのウォレットに日本円を入金できますか？</h3>
-            <p>
-            メタマスクは暗号資産ウォレットなので、日本円そのものを直接保管することはできません。
-            日本円を暗号資産取引所などで暗号資産に交換し、その暗号資産をメタマスクのウォレットアドレスに送金して利用します。
-            </p>
+            <h3>Q1. メタマスクのダウンロードや利用は無料ですか？</h3>
+            <p>はい、拡張機能やスマホアプリの <strong>ダウンロード自体は無料</strong>です。 ウォレット内で暗号資産を送金したり、スワップしたりする際に、 ブロックチェーンの <strong>ネットワーク手数料（ガス代）</strong>が発生します。</p>
+            <h3>Q2. PCとスマホで同じウォレットにログインできますか？</h3>
+            <p>できます。PCで作成したメタマスクのシークレットリカバリーフレーズを使って、 スマホアプリで「Import（インポート）」すれば、 <strong>同じウォレット</strong>を複数端末で利用可能です。 ただし、フレーズを入力する際は周囲に人がいないか確認し、安全に管理しましょう。</p>
+            <h3>Q3. パスワードを忘れた場合、どうすればいいですか？</h3>
+            <p>メタマスクのパスワードは端末内だけで使われており、 運営側でも復元できません。 <strong>シークレットリカバリーフレーズを使ってウォレットを再インポート</strong>することで、 新しいパスワードを設定し直せます。パスワードとフレーズの両方を失くしてしまった場合、 残念ながらウォレットの復元はできません。</p>
+            <h3>Q4. 「ログイン」情報はメタマスクのサーバーに保存されていますか？</h3>
+            <p>いいえ、メタマスクはメールアドレスやログインIDをサーバーに保存するタイプのサービスではありません。 パスワードや秘密鍵は基本的にあなたの端末側で暗号化して保存されます。 そのため、 <strong>自分でバックアップを取ることが非常に重要</strong>です。</p>
             <h3>Q5. メタマスクは安全ですか？</h3>
-            <p>
-            メタマスクは世界中で広く利用されているウォレットですが、
-            安全かどうかは<strong>ユーザー自身の管理方法</strong>に大きく依存します。
-            公式サイトや公式アプリストアからのみダウンロードし、シークレットリカバリーフレーズを厳重に管理し、
-            怪しいリンクやdAppには接続しないなど、基本的なセキュリティ対策を徹底しましょう。
-            </p>
-            <h2>まとめ：メタマスクのダウンロードとログインは「公式＆安全」が最優先</h2>
-            <p>
-            このガイドでは、メタマスクのウォレットをPCブラウザ拡張とスマホアプリで
-            <strong>安全にダウンロード・インストールして、ログインできるようにするまでの手順</strong>を解説しました。
-            </p>
+            <p>メタマスク自体は世界的に広く使われているウォレットですが、 安全性は <strong>あなたの使い方次第</strong>でもあります。 公式サイト・公式アプリ以外からダウンロードしない、 シークレットリカバリーフレーズを絶対に他人と共有しない、 不審なサイトへウォレットを接続しない、といった基本ルールを守りましょう。 また、暗号資産への投資は価格変動が大きいため、 最終的な判断は必ずご自身で行ってください。</p>
+            <h2 id="conclusion">まとめ：安全にメタマスクをダウンロードして、Web3の入口に立とう</h2>
+            <p>ここまで、PCブラウザ拡張機能とスマホアプリの両方で、 メタマスクの <strong>ダウンロード</strong>からウォレット作成、 そして <strong>ログイン</strong>までの流れを解説しました。</p>
             <ul>
-              <li>必ず公式サイト・公式ストアからメタマスクをダウンロードする</li>
-              <li>シークレットリカバリーフレーズはオフラインで厳重に保管し、誰にも教えない</li>
-              <li>PCとスマホで同じウォレットを使いたい場合は、フレーズでインポートして同期する</li>
-              <li>ログインできないときは、パスワード・拡張機能の状態・ネット環境を順にチェックする</li>
+              <li>必ず公式サイト・公式ストアからメタマスクを入手する</li>
+              <li>シークレットリカバリーフレーズはオフラインで厳重に保管する</li>
+              <li>PCとスマホの両方で同じウォレットを使う場合も、フレーズの管理を徹底する</li>
+              <li>ログインはあくまでローカルなロック解除であり、中央集権的なアカウントとは異なる</li>
             </ul>
-            <p>
-            暗号資産やWeb3は新しい技術であり、価格変動やセキュリティリスクも存在します。
-            本記事はウォレットの技術的な使い方の解説であり、特定の投資を推奨するものではありません。
-            実際の運用にあたっては、ご自身で十分に調査し、必要に応じて専門家の意見も参考にしてください。
-            </p>
+            <p>これらのポイントを押さえておけば、 メタマスクは強力で便利な <strong>暗号資産ウォレット</strong>として、 NFTやDeFi、GameFiなどさまざまなWeb3サービスへの入口になってくれます。 まずは少額から安全に試しながら、仕組みに慣れていきましょう。</p>
           </div>
           <!-- Comments Section -->
           <section class="comments-section" aria-labelledby="comments-heading">
@@ -1466,96 +1402,96 @@
               <link itemprop="url" href="https://metafactor.github.io/#comment-1">
               <div class="comment" id="comment-1">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #3b82f6, #8b5cf6);" aria-hidden="true">MH</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #3b82f6, #8b5cf6);" aria-hidden="true">RN</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="MasonHill" itemprop="name">MasonHill</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#MasonHill">
+                      <span class="comment-author" id="RyoNakamoto" itemprop="name">RyoNakamoto</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#RyoNakamoto">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T10:23:00+00:00" itemprop="datePublished">October 17, 2016 at 10:23 AM</time>
+                    <time class="comment-date" datetime="2025-11-21T10:23:00+03:00" itemprop="datePublished">November 21, 2025 at 10:23 AM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">Is the official MetaMask Chrome extension still safe if I install it exactly as in this guide, even though I see so many scam ads and fake listings in Google search?</div>
+                <div class="comment-body" itemprop="text">この記事のとおりに https://metamask.io から「Download」でChromeウェブストアを開いて入れれば、偽メタマスクを入れてしまう心配はほとんどないと考えていいですか？</div>
               </div>
             </div>
             <div itemprop="comment" itemscope itemtype="https://schema.org/Comment">
               <link itemprop="url" href="https://metafactor.github.io/#comment-2">
               <div class="comment" id="comment-2">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #ec4899, #f97316);" aria-hidden="true">YT</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #ec4899, #f97316);" aria-hidden="true">AK</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="YukiTanaka" itemprop="name">YukiTanaka</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#YukiTanaka">
+                      <span class="comment-author" id="AoiKudo" itemprop="name">AoiKudo</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#AoiKudo">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T11:48:00+00:00" itemprop="datePublished">October 17, 2016 at 11:48 AM</time>
+                    <time class="comment-date" datetime="2025-11-21T11:48:00+03:00" itemprop="datePublished">November 21, 2025 at 11:48 AM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">会社用と個人用でChromeプロファイルを分けていますが、ウォレットも別々にした方が安全ですか？公式サイトから入っても、メタマスク ログイン 画面に進む前にフィッシングサイトを見分ける簡単なチェックポイントがあれば知りたいです。</div>
+                <div class="comment-body" itemprop="text">会社用と個人用でChromeプロファイルを分けています。記事のメタマスク手順どおりに入れるとしても、ウォレットもプロファイルごとに分けたほうが安全でしょうか？それと、ログイン前にフィッシングサイトを見抜く簡単なチェックがあれば知りたいです。</div>
               </div>
             </div>
             <div itemprop="comment" itemscope itemtype="https://schema.org/Comment">
               <link itemprop="url" href="https://metafactor.github.io/#comment-3">
               <div class="comment" id="comment-3">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #10b981, #3b82f6);" aria-hidden="true">CR</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #10b981, #3b82f6);" aria-hidden="true">SM</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="CarlosRivera" itemprop="name">CarlosRivera</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#CarlosRivera">
+                      <span class="comment-author" id="ShunMori" itemprop="name">ShunMori</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#ShunMori">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T14:35:00+00:00" itemprop="datePublished">October 17, 2016 at 2:35 PM</time>
+                    <time class="comment-date" datetime="2025-11-21T14:35:00+03:00" itemprop="datePublished">November 21, 2025 at 2:35 PM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">@MasonHill Yes, it&apos;s safe if you type https://metamask.io yourself, click Download, and only use the official Chrome Web Store listing. Ignore sponsored results, check that the publisher is MetaMask/ConsenSys, and avoid installing from random links or ads.</div>
+                <div class="comment-body" itemprop="text">@RyoNakamoto 自分でブラウザに https://metamask.io を打ち込んで開き、「Download」から公式のChromeウェブストアだけに飛ぶようにしておけばだいぶ安全ですよ。ストアでは提供元がMetaMask / ConsenSysになっているか確認して、広告リンクやよく分からないリンクは踏まないようにしています。</div>
               </div>
             </div>
             <div itemprop="comment" itemscope itemtype="https://schema.org/Comment">
               <link itemprop="url" href="https://metafactor.github.io/#comment-4">
               <div class="comment" id="comment-4">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444);" aria-hidden="true">MK</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444);" aria-hidden="true">HS</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="MinjaeKim" itemprop="name">MinjaeKim</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#MinjaeKim">
+                      <span class="comment-author" id="HanaSaito" itemprop="name">HanaSaito</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#HanaSaito">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T16:52:00+00:00" itemprop="datePublished">October 17, 2016 at 4:52 PM</time>
+                    <time class="comment-date" datetime="2025-11-21T16:52:00+03:00" itemprop="datePublished">November 21, 2025 at 4:52 PM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">@YukiTanaka 보안을 위해서는 프로필마다 지갑을 따로 두는 게 좋습니다. 회사용 브라우저에는 테스트·소액만 쓰고, 메인 자산은 개인 PC의 메타마스크(メタマスク)에만 보관하면 훨씬 안전해요.</div>
+                <div class="comment-body" itemprop="text">@AoiKudo 記事にもあるとおり、会社用と個人用でメタマスクを分けるのはかなりおすすめです。会社プロファイルはテスト用と少額だけにして、本番の資産は個人PCのウォレットだけに入れておくと、もし会社側のプロファイルが乗っ取られてもダメージを抑えられます。</div>
               </div>
             </div>
             <div itemprop="comment" itemscope itemtype="https://schema.org/Comment">
               <link itemprop="url" href="https://metafactor.github.io/#comment-5">
               <div class="comment" id="comment-5">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);" aria-hidden="true">EB</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6);" aria-hidden="true">TI</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="EthanBrooks" itemprop="name">EthanBrooks</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#EthanBrooks">
+                      <span class="comment-author" id="TakeruIto" itemprop="name">TakeruIto</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#TakeruIto">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T18:19:00+00:00" itemprop="datePublished">October 17, 2016 at 6:19 PM</time>
+                    <time class="comment-date" datetime="2025-11-21T18:19:00+03:00" itemprop="datePublished">November 21, 2025 at 6:19 PM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">When I click &quot;Add to Chrome&quot; on the MetaMask page, nothing happens and the button stays gray. Is there a Chrome setting or permission that could be blocking the extension from installing?</div>
+                <div class="comment-body" itemprop="text">MetaMaskのChromeウェブストアページで「Chrome に追加」のボタンがグレーのまま押せません。記事どおりに進めてもインストールできないのですが、Chromeの設定や管理ポリシーでブロックされている可能性ってありますか？</div>
               </div>
             </div>
             <div itemprop="comment" itemscope itemtype="https://schema.org/Comment">
               <link itemprop="url" href="https://metafactor.github.io/#comment-6">
               <div class="comment" id="comment-6">
                 <header class="comment-header">
-                  <div class="avatar" style="background: linear-gradient(135deg, #14b8a6, #06b6d4);" aria-hidden="true">SK</div>
+                  <div class="avatar" style="background: linear-gradient(135deg, #14b8a6, #06b6d4);" aria-hidden="true">MA</div>
                   <div>
                     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <span class="comment-author" id="SofiaKlein" itemprop="name">SofiaKlein</span>
-                      <link itemprop="url" href="https://metafactor.github.io/#SofiaKlein">
+                      <span class="comment-author" id="MayaArai" itemprop="name">MayaArai</span>
+                      <link itemprop="url" href="https://metafactor.github.io/#MayaArai">
                     </div>
-                    <time class="comment-date" datetime="2022-10-16T20:41:00+00:00" itemprop="datePublished">October 17, 2016 at 8:41 PM</time>
+                    <time class="comment-date" datetime="2025-11-21T20:41:00+03:00" itemprop="datePublished">November 21, 2025 at 8:41 PM</time>
                   </div>
                 </header>
-                <div class="comment-body" itemprop="text">@EthanBrooks That usually means your Chrome profile is managed by a company or school and new extensions are blocked by policy. Try again on a personal device or a browser profile you control where installing MetaMask is allowed.</div>
+                <div class="comment-body" itemprop="text">@TakeruIto その症状、会社や学校管理のChromeプロファイルだとよくあります。ポリシーで新しい拡張機能の追加が禁止されているケースですね。記事の手順を、個人用PCや自分が管理しているプロファイルで試してみると、ふつうにMetaMaskがインストールできると思います。</div>
               </div>
             </div>
             <aside class="comment-notice" role="complementary">
@@ -1624,7 +1560,7 @@
           <a href="#" onclick="openModal('contactModal'); return false;">Contact</a>
         </nav>
         <div class="footer-bottom">
-          <p>&copy; 2025 MetaFactor. All rights reserved. Independent community site; not affiliated with MetaMask or any wallet provider.</p>
+          <p>&copy; 2025 MetaFactor. All rights reserved. Independent community site. Not affiliated with MetaMask or ConsenSys. Never share your seed phrase with anyone.</p>
         </div>
       </div>
     </footer>
@@ -1636,7 +1572,7 @@
           <button class="close-modal" onclick="closeModal('loginModal')" aria-label="Close login dialog">&times;</button>
         </div>
         <div class="modal-body">
-          <form action="/api/login" method="POST" aria-label="Login form">
+          <form action="#coming-soon" method="POST" aria-label="Login form">
             <div class="form-group">
               <label for="login-email">Email Address</label>
               <input type="email" id="login-email" name="email" autocomplete="email" required aria-required="true">
@@ -1659,7 +1595,7 @@
         </div>
         <div class="modal-body">
           <p style="margin-bottom: 1.5rem;">MetaFactor is an exclusive, invitation-only community. To join, you must have a valid invitation code from an existing member.</p>
-          <form action="/api/register" method="POST" aria-label="Registration form">
+          <form action="#coming-soon" method="POST" aria-label="Registration form">
             <div class="form-group">
               <label for="invite-code">Invitation Code</label>
               <input type="text" id="invite-code" name="invite_code" placeholder="Enter your invite code" autocomplete="off" required aria-required="true">
